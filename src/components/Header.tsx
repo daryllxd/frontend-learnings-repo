@@ -1,11 +1,11 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Button } from "@/components/ui/button"
+} from '@/components/ui/dropdown-menu';
+import { Button } from '@/components/ui/button';
 
 export function Header() {
   return (
@@ -49,5 +49,5 @@ export function Header() {
         </nav>
       </div>
     </header>
-  )
-} 
+  );
+}
